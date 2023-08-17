@@ -216,12 +216,17 @@ const isDark = ref(false);
     </div>
     <div
       :style="{
-        paddingTop: '20px',
+        padding: '14px 0',
         color: isDark ? 'white' : 'black',
       }"
     >
       {{ isDark ? "深色模式" : "浅色模式" }}
     </div>
+    <a href="https://github.com/Dar-Xs/Advance-Dark-Mode-Toggle-Demo" target="_blank">
+      <img
+        alt="GitHub Repo stars"
+        src="https://img.shields.io/github/stars/Dar-Xs/Advance-Dark-Mode-Toggle-Demo?logo=github"
+    /></a>
   </div>
 </template>
 
